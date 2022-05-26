@@ -29,6 +29,6 @@ BOOL PSSplashScreen::Create() {
     m_bitmap = LoadBitmap(m_Instance, MAKEINTRESOURCE(IDB_BITMAP1)); // IDB_BITMAP1 image.bmp in WindowsPlayer.rc
     
     LPCTSTR szTitle = L"Loading"; // Window Title
-	   LPCTSTR szWindowClassName = L"SplashScreen"; // Window Class
+    LPCTSTR szWindowClassName = L"SplashScreen"; // Window Class
 }
 ```
