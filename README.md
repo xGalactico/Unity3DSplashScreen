@@ -9,7 +9,7 @@
 ```cpp
 int WINAPI wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, _In_ LPWSTR lpCmdLine, _In_ int nShowCmd)
 {
-    PSSplashScreen::ShowSplashScreen(5500);
+    PSSplashScreen::ShowSplashScreen(5500); //millisecondsToDisplay
 
     MSG msg;
     while (GetMessage(&msg, NULL, 0, 0))
