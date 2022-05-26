@@ -23,7 +23,7 @@ int WINAPI wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, 
 }
 ```
 
-# Image
+# Title & Image
 ```cpp
 BOOL PSSplashScreen::Create() {
     m_bitmap = LoadBitmap(m_Instance, MAKEINTRESOURCE(IDB_BITMAP1)); // IDB_BITMAP1 image.bmp in WindowsPlayer.rc
